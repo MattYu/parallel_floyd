@@ -1,6 +1,8 @@
 # parallel_floyd
 
-Solves the shortest Path problem using a MPI based pipelined parallel processed implementation of Floyd-Warshall Algorithm
+Solves the shortest Path problem using a MPI based pipelined parallel processed implementation of Floyd-Warshall Algorithm.
+
+https://en.wikipedia.org/wiki/Parallel_all-pairs_shortest_path_algorithm#Pipelined_2-D_block_mapping
 
 *** How Matrix is generated
 - Random if i != j with arbitrary connect rate. Infinity is represented by INT_MAX
